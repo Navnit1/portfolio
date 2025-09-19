@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Navnit kumar</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <h1 class="logo">Navnit kumar</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <!-- <a href="#experience">Experience</a> -->
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <h2>Hi, I'm <span>Navnit kumar</span></h2>
+      <p>A passionate Full-Stack Developer building modern web applications.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a product-minded engineer who builds fast, accessible web apps with a focus
+        on clean architecture, maintainability, and user experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250" alt="Project screenshot" />
+          <h3>salary prediction</h3>
+          <p>it is a simple salary pridiction it usese different phython library to make that possible .</p>
+          <a href="salary_prediction_ (1).ipynb" target="_blank" class="btn small">Live</a>
+          <a href="https://github.com/Navnit1/employee-salary-prediction.git" target="_blank" class="btn small outline">Code</a>
+        </div>
+        <!-- Add more project cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="certificates section">
+    <div class="container">
+      <h2>Certificates</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <img src=""AICET B2 PD Certificate-1784.pdf"" alt="Certificate image" />
+          <h3> Airtificial Intellegence & Machine Learning (AIML)</h3>
+          <p>Issued by AICTE  • 2025</p>
+          <a href="AICET B2 PD Certificate-1784.pdf" target="_blank" class="btn small">View</a>
+        </div>
+        <div class="cert-card">
+          <img src="certificate 4 week.pdf" alt="Certificate image" />
+          <h3> IBM Cloud Platform in Emerging Technologies (AI & Cloud)</h3>
+          <p>Issued by AICTE • 2025</p>
+          <a href="certificate 4 week.pdf" target="_blank" class="btn small">View</a>
+        </div>
+        <!-- Add more certificates -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <!-- <section id="experience" class="experience section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="exp-item">
+        <h3>Senior Developer • Company Name</h3>
+        <span>2022 — Present</span>
+        <ul>
+          <li>Led migration to modern stack, reducing load times by 40%.</li>
+          <li>Mentored junior engineers and improved code quality standards.</li>
+        </ul>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Navnit kumar. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
